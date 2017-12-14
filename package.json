@@ -1,0 +1,21 @@
+{
+  "name": "s3_to_es-lambda",
+  "description": "AWS Lambda function to deliver logs from S3 to ES",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Artem Ibragimov",
+      "email": "a.ibragimov@gameofshred.com"
+    }
+  ],
+  "dependencies": {
+    "aws-sdk": "2.2.48",
+    "path": "0.12.7",
+    "stream": "0.0.2",
+    "byline": "4.2.1",
+    "zlib": "1.0.5",
+    "readline": "1.3.0"
+  },
+  "repository": "https://github.com/lokoArt/s3-to-es-lambda",
+  "license": "None"
+}
