@@ -31,7 +31,7 @@ function parseLogLine(line) {
 			"timestamp" : result[2],
 			"elb" : result[3],
 			"client_ip" : result[4],
-			"http_response" : result[9],
+			"code" : parseInt(result[9]),
 			"url" : result[13],
 			"agent" : result[14]}
 }
